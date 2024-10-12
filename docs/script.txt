@@ -1,0 +1,49 @@
+#############script###############
+Display name: PQRS
+Esquema: PQRS
+Usuario: PQRS
+Contraseña: 123
+Database URL: jdbc:derby://localhost:1527/PQRS;create=true
+##########Tablas#############
+
+Estudiantes:
+
+Columna 1:
+	Titulo:Nombre
+	Tipo de dato: Varchar
+	Tamaño: 25 caracteres
+	Primary key
+
+Columna 2:
+	Titulo:Apellido
+	Tipo de dato: Varchar
+	Tamaño: 25 caracteres
+	Primary key
+
+Columna 3:
+	Titulo: Cedula
+	Tipo de dato: Varchar
+	Tamaño: 25 caracteres
+	Primary key
+
+Columna 4:
+	Titulo: Codigo
+	Tipo de dato: Varchar
+	Tamaño: 25 caracteres
+	Primary key
+
+PQRS:
+
+Columna 1:
+	Titulo: PQRS
+	Tipo de dato: Varchar
+	Tamaño: 25 caracteres
+	Primary key
+
+Columna 2:
+	Titulo: Descripcion
+	Tipo de dato: Varchar
+	Tamaño: 200 caracteres
+	Primary key
+
+
